@@ -9,26 +9,32 @@
 </head>
 <body>
   <a href="./index.html">Back</a>
-  <div class="timer" id="timer-1">
-    <div class="field">
-      <span class="value" data-value="days">00</span>
-      <span class="label">Days</span>
-    </div>
-    <div class="field">
-      <span class="value" data-value="hours">00</span>
-      <span class="label">Hours</span>
-    </div>
+    <div class="timer-container">
+      <form class="timer-form">
+        <input class="input" type="date">
+      </form>
+      <div class="timer" id="timer-1">
+        <div class="field">
+          <span class="value" data-value="days">00</span>
+          <span class="label">Days</span>
+        </div>
 
-    <div class="field">
-      <span class="value" data-value="mins">00</span>
-      <span class="label">Minutes</span>
-    </div>
+        <div class="field">
+          <span class="value" data-value="hours">00</span>
+          <span class="label">Hours</span>
+        </div>
 
-    <div class="field">
-      <span class="value" data-value="secs">00</span>
-      <span class="label">Seconds</span>
+        <div class="field">
+          <span class="value" data-value="mins">00</span>
+          <span class="label">Minutes</span>
+        </div>
+
+        <div class="field">
+          <span class="value" data-value="secs">00</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
     </div>
-  </div>
   <script src="./js/timer.js" type="module"></script>
 </body>
 </html>
