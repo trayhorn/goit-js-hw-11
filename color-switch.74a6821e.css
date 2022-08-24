@@ -1,0 +1,2 @@
+body{font-family:Courier New,Courier,monospace}.container{max-width:300px;justify-content:space-around;margin-top:200px;margin-left:auto;margin-right:auto;display:flex}button{color:#fff;cursor:pointer;background-color:green;border:none;border-radius:5px;outline:none;padding:12px 40px;font-size:16px;text-decoration:none;transition:all .2s;box-shadow:7px 6px 28px 1px #0000003d}button:active{transform:scale(.96);box-shadow:3px 2px 22px 1px #0000003d}button:disabled{background-color:#6d9a6d}
+/*# sourceMappingURL=color-switch.74a6821e.css.map */
