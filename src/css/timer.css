@@ -41,7 +41,7 @@ input[type="date"] {
   outline: none;
 
 }
-::-webkit-calendar-picker-indicator {
+/* ::-webkit-calendar-picker-indicator {
   background-color: #FFF;
   padding: 5px;
   border-radius: 5px;
@@ -50,4 +50,4 @@ input[type="date"] {
 
 ::-webkit-calendar {
   width: 354px;
-}
+} */
